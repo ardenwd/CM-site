@@ -1,0 +1,128 @@
+header{
+  background-color: #29193f;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+
+}
+
+.logo{
+  margin: 0 0 0 140px;
+  font-family: "Bungee Shade";
+  font-size: 20px;
+  color: #fe89e4;
+}
+
+.tabs{
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 40px;
+  margin: 0 40px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Rubik";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+
+.gallery_break{
+  padding: 7.5px;
+}
+
+.g_i {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: orange;
+}
+
+.g_i-1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.g_i-2 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+.g_i-3 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.g_i-4 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+
+.g_i-5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 9;
+}
+
+.g_i-6{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+
+.g_i-7 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+
+.g_i-8 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 11;
+}
+.g_i-9 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 11;
+}
+.g_i-10 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 11;
+    grid-row-end: 13;
+}
+.g_i-11 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 11;
+    grid-row-end: 13;
+}
+
+.g_i-12 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 9;
+    grid-row-end: 13;
+}

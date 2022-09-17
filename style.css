@@ -1,0 +1,305 @@
+/*
+Theme Name: Origen
+Author: Arden
+Version: 1.0
+*/
+.title-name {
+  font-size: 90px;
+  font-family: helvetica;
+    font-family: "inria serif";
+    text-transform: uppercase;
+
+    position: fixed;
+    top:40%;
+    right: 30%;
+    margin: auto;
+}
+
+.container {
+}
+
+
+.observations{
+  background-color: #f9f3e9;
+}
+
+.tab-word {
+  padding: 20px;
+  font-family: "inria serif";
+  font-size: 60px;
+  text-transform: uppercase;
+  position: fixed;
+  z-index: 3;
+}
+
+.tab-1-link {
+      position: fixed;
+      top: 100px;
+      left: 100px;
+}
+
+.tab-2-word{
+  right: 380px;
+}
+
+.tab-2-link {
+      position: fixed;
+      top: 100px;
+      right: 300px;
+}
+
+.tab-3-link {
+      position: fixed;
+      bottom: 200px;
+      left: 100px;
+}
+
+.tab-4-link {
+      position: fixed;
+      bottom: 200px;
+      right: 300px;
+}
+
+
+.tab-1-repeat {
+      position: fixed;
+      top: 120px;
+      left: 50px;
+      z-index: 1;
+}
+
+.tab-2-repeat {
+      position: fixed;
+      top: 120px;
+      right: 300px;
+      z-index: 1;
+}
+
+.tab-3-repeat {
+      position: fixed;
+      bottom: 100px;
+      left: 50px;
+      z-index: 1;
+}
+
+.tab-4-repeat {
+      position: fixed;
+      bottom: 100px;
+      right: 300px;
+      z-index: 1;
+    }
+
+.tab-color {
+      width: 180px;
+      height: 35px;
+      background-color: pink;
+      z-index: 2;
+      position: relative;
+      top: 50px;
+}
+
+.return-home-art.return-home-about{
+  bottom: 50px;
+  left: 50px;
+  padding: 20px;
+  position: fixed;
+}
+
+.return-home-dj{
+  bottom: 20px;
+  left: 350px;
+  position: fixed;
+  z-index: 4;
+}
+
+.return-home-journal {
+  top: 120px;
+  left: 50px;
+  padding: 20px;
+  position: fixed;
+}
+
+.return-home-color {
+    bottom: 0px;
+    left: 0px;
+    width: 220px;
+    height: 70px;
+    background-color: #FFFFA9;
+    z-index: 2;
+    position: absolute;
+}
+
+.return-home-text {
+  bottom: 30px;
+  left: 18px;
+  font-family: "helvetica";
+  font-size: 55px;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 3;
+}
+
+a{
+   text-decoration: none;
+   color: inherit;
+ }
+
+.journal.dj.art {
+  background-color: white;
+}
+
+.hints {
+ font-size: 100px;
+ font-family: helvetica;
+ font-weight: bold;
+ color: #d3d3d3;
+ position: fixed;
+ top: 0px;
+ right: -13px;
+}
+
+.hint-1 {
+  font-weight: bold;
+}
+
+.hint-2 {
+  font-weight: normal;
+}
+
+.hint-3 {
+  font-weight: normal;
+}
+
+.hint-4 {
+  font-weight: normal;
+}
+
+.pass{
+  font-size: 75px;
+  font-family: Helvetica;
+  font-weight: bold;
+  position: fixed;
+  top: 180px;
+  width: 400px;
+  left: 70px;
+  }
+
+  .arrow {
+    width: 120px;
+  }
+
+  .line {
+    margin-top: 14px;
+    width: 90px;
+    background: blue;
+    height: 10px;
+    float: left;
+  }
+
+  .point {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid blue;
+    float: right;
+  }
+
+.grid {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 250px 250px;
+  grid-gap: 50px;
+  left: 200px;
+  position: absolute;
+  top: 89px;
+}
+
+/*hi*/
+
+.g-img{
+  box-sizing: content-box;
+  background-color: pink;
+  width: 250px;
+  height: 250px;
+}
+
+.art-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-auto-rows: 500px;
+  height: 100%;
+  grid-gap: 15px;
+  padding: 100px 50px 80px;
+}
+
+.ae {
+  background-color: white;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+img.ae-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* Resize images
+.art-element img {
+    width: 100%;
+    height: auto;
+}
+.art-element {
+    background-color: orange;
+    object-fit: cover;
+    width: 600px;
+    height: 300px;
+}
+*/
+
+
+.animation{
+  position: absolute;
+  display: block;
+  opacity: 1;
+  z-index: 10;
+}
+
+.profile-pic{
+  width: 30%;
+  top: 120px;
+  right: 80px;
+  position: absolute;
+  filter: grayscale(100%);
+}
+
+.hov{
+  z-index:10;
+  opacity: 0;
+}
+
+
+.hov:hover{
+  opacity: 1;
+  z-index:1;
+  filter: grayscale(0);
+}
+
+.words{
+  positon: absolute;
+  font-family: "Playfair Display";
+  z-index: 6;
+  padding: 60px 0 0 80px;
+  width: 60%;
+  text-align: justify;
+}
+
+.p-text-intro {
+  font-size: 200px;
+  position: fixed;
+  top: -100px;
+  left: 35px;
+  z-index: 5;
+}
