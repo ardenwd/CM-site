@@ -1,7 +1,6 @@
-<?php
-get_header();
 
- ?>
+<!doctype html>
+<html>
  <head>
    <!-- add fonts here -->
    <title>Observations</title>
@@ -40,3 +39,4 @@ get_header();
     </div>
   </div>
 </body>
+<html>
