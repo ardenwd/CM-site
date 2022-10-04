@@ -281,7 +281,7 @@ img.ae-img{
 }
 
 .words{
-  positon: absolute;
+  position: absolute;
   font-family: "Playfair Display";
   z-index: 6;
   padding: 60px 0 0 80px;
