@@ -306,3 +306,8 @@ img.ae-img{
   font-family: helvetica;
   z-index: 10;
 }
+
+a.linka{
+  text-decoration: underline;     
+text-decoration-color:red;
+}
