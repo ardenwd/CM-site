@@ -297,10 +297,12 @@ img.ae-img{
   z-index: 5;
 }
 
-.test {
+.test {  
+    /* width: 100%; */
   top: 170px;
   width: 19%;
   position: absolute;
   right: 380px;
+  font-family: helvetica;
   z-index: 10;
 }
