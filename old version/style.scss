@@ -11,9 +11,6 @@ $background-color_3: #FFFFA9;
 $background-color_4: white;
 $prefix: 1;
 
-html{
-scroll-behavior: smooth;
-}
 
 /*hi*/
 /*.ae1:hover ~ .ae2 {
@@ -33,87 +30,72 @@ scroll-behavior: smooth;
     height: 300px;
 }
 */
-
-.art {
-	position:relative;
-	height: 700px;
-}
-
-.dj {
-	height: 700px;
-	position: relative;
-}
-.space {
-	//height: 600px;
-}
-
-.container {
-	position: relative;
-	height: 650px;
-}
-
-
 .title-name {
 	font-size: 90px;
 	font-family: $font-family_1;
 	font-family: $font-family_2;
 	text-transform: uppercase;
-	position: absolute;
+	position: fixed;
 	top: 40%;
 	right: 30%;
 	margin: auto;
-	z-index: 5;
 }
 .observations {
 	background-color: $background-color_1;
-	height: 700px;
 }
 .tab-word {
 	padding: 20px;
 	font-family: $font-family_2;
 	font-size: 60px;
 	text-transform: uppercase;
-	position: absolute;
+	position: fixed;
 	z-index: 3;
 }
 .tab-1-link {
-	position: absolute;
-	bottom: 200px;
-	left: 10%;
+	position: fixed;
+	top: 100px;
+	left: 100px;
+}
+.tab-2-word {
+	right: 380px;
 }
 .tab-2-link {
-	position: absolute;
-	bottom: 200px;
-	right: 270px;
+	position: fixed;
+	top: 100px;
+	right: 300px;
 }
 .tab-3-link {
-	position: absolute;
-	top: 100px;
-	left: 10%;
-} 
+	position: fixed;
+	bottom: 200px;
+	left: 100px;
+}
 .tab-4-link {
-	position: absolute;
-	top: 100px;
-	right: 150px;
+	position: fixed;
+	bottom: 200px;
+	right: 300px;
 }
 .tab-1-repeat {
-	top: 20px;
+	position: fixed;
+	top: 120px;
 	left: 50px;
 	z-index: 1;
 }
 .tab-2-repeat {
-	top:20px;
-	left: 10px;
+	position: fixed;
+	top: 120px;
+	right: 300px;
 	z-index: 1;
 }
 .tab-3-repeat {
-	top: 20px;
+	position: fixed;
+	bottom: 100px;
 	left: 50px;
 	z-index: 1;
 }
 .tab-4-repeat {
-	top: 20px;
-	left: 50px;
+	position: fixed;
+	bottom: 100px;
+	right: 300px;
 	z-index: 1;
 }
 .tab-color {
@@ -124,36 +106,23 @@ scroll-behavior: smooth;
 	position: relative;
 	top: 50px;
 }
-
-.tab-4-color {
-	width: 300px;
-}
-.return-home-art{
-	bottom: 30px;
+.return-home-art.return-home-about {
+	bottom: 50px;
 	left: 50px;
 	padding: 20px;
-	position: absolute;
-	z-index: 6;
-}
-
-.return-home-about {
-	bottom: 30px;
-	left: 50px;
-	padding: 20px;
-	position: absolute;
-	z-index: 6;
+	position: fixed;
 }
 .return-home-dj {
 	bottom: 20px;
 	left: 350px;
-	position: absolute;
+	position: fixed;
 	z-index: 4;
 }
 .return-home-journal {
 	top: 120px;
 	left: 50px;
 	padding: 20px;
-	position: absolute;
+	position: fixed;
 }
 .return-home-color {
 	bottom: 0px;
@@ -233,9 +202,9 @@ a {
 	grid-template-columns: 250px 250px 250px;
 	grid-template-rows: 250px 250px;
 	grid-gap: 50px;
-	left: 160px;
+	left: 200px;
 	position: absolute;
-	//padding: 200px;
+	top: 89px;
 }
 .g-img {
 	box-sizing: content-box;
@@ -244,13 +213,12 @@ a {
 	height: 250px;
 }
 .art-grid {
-	position: absolute; 
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
 	grid-auto-rows: 500px;
-	//height: 100%;
+	height: 100%;
 	grid-gap: 15px;
-	padding: 40px 50px 80px;
+	padding: 100px 50px 80px;
 }
 
 .ae {
@@ -321,7 +289,7 @@ img.ae-img {
 }
 .p-text-intro {
 	font-size: 200px;
-	position: absolute;
+	position: fixed;
 	top: -100px;
 	left: 35px;
 	z-index: 5;
